@@ -20,7 +20,7 @@ import {
 const Sidebar = ({mode, setMode}) => {
   return (
     <Box 
-      flex={1} p={2} 
+      flex={1} p={1} 
       sx={{ display: { xs: "none",sm: "block"}}}>
       <Box position="fixed">
         <List>

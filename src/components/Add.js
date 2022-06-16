@@ -42,8 +42,8 @@ const Add = () => {
     title="Delete" 
     sx={{ 
         position:"fixed", 
-        bottom:20, 
-        left:{xs:"calc(50%)", md:30}}}>
+        bottom:5, 
+        left:{xs:"calc(45%)", md:30}}}>
     <Fab color="primary" aria-label="add">
         <AddIcon />
     </Fab>

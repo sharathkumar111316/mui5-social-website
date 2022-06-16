@@ -15,11 +15,11 @@ import {
 const Rightbar = () => {
   return (
     <Box
-    flex={2} p={2} 
+    flex={1} p={1} 
     sx={{ display: { xs: "none", sm: "block"}}}>
       <Box position="fixed" width={300}>
       <Typography variant="h6" fontWeight={100}>Online Friends</Typography>
-    <AvatarGroup max={6}>
+    <AvatarGroup max={7}>
       <Avatar alt="Remy Sharp" src="http://staffmobility.eu/sites/default/files/isewtweetbg.jpg" />
       <Avatar alt="Travis Howard" src="http://staffmobility.eu/sites/default/files/isewtweetbg.jpg" />
       <Avatar alt="Cindy Baker" src="http://staffmobility.eu/sites/default/files/isewtweetbg.jpg" />
